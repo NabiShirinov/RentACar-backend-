@@ -1,0 +1,10 @@
+06:06:39.732 [http-nio-8090-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+06:06:39.744 [http-nio-8090-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+06:06:39.786 [http-nio-8090-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 40 ms
+06:06:39.818 [http-nio-8090-exec-1] WARN  o.s.w.s.h.HandlerMappingIntrospector - Cache miss for REQUEST dispatch to '/swagger-ui/index.html' (previous null). Performing MatchableHandlerMapping lookup. This is logged once only at WARN level, and every time at TRACE.
+06:06:42.736 [http-nio-8090-exec-9] INFO  o.s.api.AbstractOpenApiResource - Init duration for springdoc-openapi is: 716 ms
+06:06:58.528 [http-nio-8090-exec-1] INFO  nabiOopFinal.service.AuthService - Login successful for email: elariz@gmail.com
+06:14:14.859 [http-nio-8090-exec-4] INFO  nabiOopFinal.service.AuthService - Login successful for email: elariz@gmail.com
+06:16:54.260 [http-nio-8090-exec-10] INFO  nabiOopFinal.service.AuthService - Login successful for email: elariz@gmail.com
+06:28:00.674 [http-nio-8090-exec-3] INFO  nabiOopFinal.service.AuthService - Login successful for email: elariz@gmail.com
+08:18:01.558 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=16m6s772ms753µs700ns).

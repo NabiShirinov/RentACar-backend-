@@ -1,0 +1,240 @@
+11:26:48.486 [main] INFO  nabiOopFinal.nabiRentalApp - Starting nabiRentalApp using Java 20 with PID 18172 (C:\Users\BAKU\Documents\prj-rent-a-car-app-NabiShirinov-1\nabiFinalOop\oop\target\classes started by Nabi in C:\Users\BAKU\Documents\prj-rent-a-car-app-NabiShirinov-1\nabiFinalOop\oop)
+11:26:48.492 [main] INFO  nabiOopFinal.nabiRentalApp - No active profile set, falling back to 1 default profile: "default"
+11:26:49.891 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+11:26:49.975 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 71 ms. Found 3 JPA repository interfaces.
+11:26:50.891 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8090 (http)
+11:26:50.902 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8090"]
+11:26:50.905 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+11:26:50.905 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.16]
+11:26:51.007 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+11:26:51.009 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2458 ms
+11:26:51.251 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+11:26:51.344 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.3.1.Final
+11:26:51.399 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+11:26:51.730 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+11:26:51.763 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+11:26:52.043 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@66ab924
+11:26:52.045 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+11:26:53.742 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+11:26:53.877 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+11:26:54.515 [main] INFO  o.s.d.j.r.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+11:26:55.488 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+11:26:56.583 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@43e587cd, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4a9d0c6f, org.springframework.security.web.context.SecurityContextHolderFilter@2cf88ae1, org.springframework.security.web.header.HeaderWriterFilter@35e55afa, org.springframework.security.web.authentication.logout.LogoutFilter@c1e7bea, nabiOopFinal.security.JwtAuthenticationFilter@38e61b69, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1a8e209b, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1b316cac, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@6557d4c6, org.springframework.security.web.session.SessionManagementFilter@179806f3, org.springframework.security.web.access.ExceptionTranslationFilter@1bc41170, org.springframework.security.web.access.intercept.AuthorizationFilter@de0922c]
+11:26:56.939 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8090"]
+11:26:56.966 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8090 (http) with context path ''
+11:26:56.977 [main] INFO  nabiOopFinal.nabiRentalApp - Started nabiRentalApp in 9.006 seconds (process running for 13.189)
+11:26:57.913 [http-nio-8090-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+11:26:57.913 [http-nio-8090-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+11:26:57.915 [http-nio-8090-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+11:26:57.931 [http-nio-8090-exec-2] WARN  o.s.w.s.h.HandlerMappingIntrospector - Cache miss for REQUEST dispatch to '/api/v1/auth/login' (previous null). Performing MatchableHandlerMapping lookup. This is logged once only at WARN level, and every time at TRACE.
+11:26:58.409 [http-nio-8090-exec-2] INFO  nabiOopFinal.service.AuthService - Login successful for email: elariz@gmail.com
+12:22:54.533 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+12:22:54.620 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+12:22:54.651 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+12:22:57.536 [main] INFO  nabiOopFinal.nabiRentalApp - Starting nabiRentalApp using Java 20 with PID 14036 (C:\Users\BAKU\Documents\prj-rent-a-car-app-NabiShirinov-1\nabiFinalOop\oop\target\classes started by Nabi in C:\Users\BAKU\Documents\prj-rent-a-car-app-NabiShirinov-1\nabiFinalOop\oop)
+12:22:57.537 [main] INFO  nabiOopFinal.nabiRentalApp - No active profile set, falling back to 1 default profile: "default"
+12:22:58.304 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+12:22:58.364 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 52 ms. Found 3 JPA repository interfaces.
+12:22:58.940 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8090 (http)
+12:22:58.953 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8090"]
+12:22:58.957 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+12:22:58.957 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.16]
+12:22:59.018 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+12:22:59.019 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1447 ms
+12:22:59.182 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+12:22:59.268 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.3.1.Final
+12:22:59.316 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+12:22:59.560 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+12:22:59.586 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+12:22:59.746 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@2f07930a
+12:22:59.748 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+12:23:00.621 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+12:23:00.690 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+12:23:01.007 [main] INFO  o.s.d.j.r.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+12:23:01.617 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+12:23:02.492 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@21e441d1, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@711329fe, org.springframework.security.web.context.SecurityContextHolderFilter@c1e7bea, org.springframework.security.web.header.HeaderWriterFilter@746fda68, org.springframework.security.web.authentication.logout.LogoutFilter@34ec33f4, nabiOopFinal.security.JwtAuthenticationFilter@3294b641, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6453c126, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6565691a, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@2088e339, org.springframework.security.web.session.SessionManagementFilter@35007b7a, org.springframework.security.web.access.ExceptionTranslationFilter@485996f7, org.springframework.security.web.access.intercept.AuthorizationFilter@18f90bd8]
+12:23:02.730 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8090"]
+12:23:02.749 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8090 (http) with context path ''
+12:23:02.756 [main] INFO  nabiOopFinal.nabiRentalApp - Started nabiRentalApp in 5.552 seconds (process running for 6.156)
+12:24:18.934 [http-nio-8090-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+12:24:18.934 [http-nio-8090-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+12:24:18.936 [http-nio-8090-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+12:24:18.945 [http-nio-8090-exec-1] WARN  o.s.w.s.h.HandlerMappingIntrospector - Cache miss for REQUEST dispatch to '/api/v1/auth/login' (previous null). Performing MatchableHandlerMapping lookup. This is logged once only at WARN level, and every time at TRACE.
+12:24:19.225 [http-nio-8090-exec-1] INFO  nabiOopFinal.service.AuthService - Login successful for email: elariz@gmail.com
+12:24:50.200 [http-nio-8090-exec-3] INFO  nabiOopFinal.service.AuthService - Login successful for email: elariz@gmail.com
+13:04:42.202 [http-nio-8090-exec-7] INFO  nabiOopFinal.service.AuthService - Login successful for email: elariz@gmail.com
+14:48:53.755 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h8m56s75ms621µs800ns).
+15:31:14.465 [http-nio-8090-exec-2] INFO  nabiOopFinal.service.AuthService - Login successful for email: elariz@gmail.com
+16:49:04.921 [http-nio-8090-exec-5] INFO  nabiOopFinal.service.AuthService - Login successful for email: elariz@gmail.com
+16:49:11.192 [http-nio-8090-exec-8] INFO  nabiOopFinal.service.AuthService - Login successful for email: elariz@gmail.com
+16:52:10.506 [http-nio-8090-exec-1] INFO  nabiOopFinal.service.AuthService - Login successful for email: elariz@gmail.com
+16:56:56.686 [http-nio-8090-exec-6] INFO  nabiOopFinal.service.AuthService - Login successful for email: elariz@gmail.com
+17:06:43.337 [http-nio-8090-exec-9] INFO  nabiOopFinal.service.AuthService - Login successful for email: elariz@gmail.com
+17:11:46.391 [http-nio-8090-exec-6] INFO  nabiOopFinal.service.AuthService - Login successful for email: elariz@gmail.com
+17:12:03.332 [http-nio-8090-exec-4] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' is not supported]
+17:12:26.080 [http-nio-8090-exec-4] INFO  o.s.api.AbstractOpenApiResource - Init duration for springdoc-openapi is: 645 ms
+17:12:54.821 [http-nio-8090-exec-2] INFO  nabiOopFinal.service.AuthService - Login successful for email: elariz@gmail.com
+17:13:42.990 [http-nio-8090-exec-6] INFO  nabiOopFinal.service.RentalService - New Rental Added: Mercedes GT Roadster
+17:14:46.920 [http-nio-8090-exec-8] INFO  nabiOopFinal.service.RentalService - Rental Deleted: Mercedes string
+17:14:53.190 [http-nio-8090-exec-4] INFO  nabiOopFinal.service.RentalService - Rental Deleted: BMW string
+17:15:39.308 [http-nio-8090-exec-3] INFO  nabiOopFinal.service.RentalService - New Rental Added: Mercedes G63 SUV
+17:16:23.900 [http-nio-8090-exec-6] INFO  nabiOopFinal.service.RentalService - New Rental Added: Mercedes S63
+17:16:40.301 [http-nio-8090-exec-7] INFO  nabiOopFinal.service.RentalService - New Rental Added: Mercedes G63
+17:32:14.994 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+17:32:15.014 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+17:32:15.019 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+17:32:22.214 [main] INFO  nabiOopFinal.nabiRentalApp - Starting nabiRentalApp using Java 20 with PID 4608 (C:\Users\BAKU\Documents\prj-rent-a-car-app-NabiShirinov-1\nabiFinalOop\oop\target\classes started by Nabi in C:\Users\BAKU\Documents\prj-rent-a-car-app-NabiShirinov-1\nabiFinalOop\oop)
+17:32:22.215 [main] INFO  nabiOopFinal.nabiRentalApp - No active profile set, falling back to 1 default profile: "default"
+17:32:23.203 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+17:32:23.264 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 51 ms. Found 3 JPA repository interfaces.
+17:32:23.990 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8090 (http)
+17:32:23.998 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8090"]
+17:32:24.000 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+17:32:24.000 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.16]
+17:32:24.057 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+17:32:24.058 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1791 ms
+17:32:24.203 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+17:32:24.302 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.3.1.Final
+17:32:24.350 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+17:32:24.592 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+17:32:24.615 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+17:32:24.808 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@59d5c537
+17:32:24.809 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+17:32:25.737 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+17:32:25.984 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+17:32:26.305 [main] INFO  o.s.d.j.r.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+17:32:26.941 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+17:32:27.624 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@3a8dd899, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3da068e8, org.springframework.security.web.context.SecurityContextHolderFilter@491cceb4, org.springframework.security.web.header.HeaderWriterFilter@7a9df9b2, org.springframework.security.web.authentication.logout.LogoutFilter@55af9b48, nabiOopFinal.security.JwtAuthenticationFilter@2b208574, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@504ed038, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@10fef3d1, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@448861e5, org.springframework.security.web.session.SessionManagementFilter@7ec416a0, org.springframework.security.web.access.ExceptionTranslationFilter@765d2d4d, org.springframework.security.web.access.intercept.AuthorizationFilter@1c83652d]
+17:32:27.908 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8090"]
+17:32:27.941 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8090 (http) with context path ''
+17:32:27.950 [main] INFO  nabiOopFinal.nabiRentalApp - Started nabiRentalApp in 6.129 seconds (process running for 7.109)
+17:32:52.829 [http-nio-8090-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+17:32:52.829 [http-nio-8090-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+17:32:52.831 [http-nio-8090-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+17:32:53.021 [http-nio-8090-exec-1] WARN  o.s.w.s.h.HandlerMappingIntrospector - Cache miss for REQUEST dispatch to '/api/v1/rental/add' (previous null). Performing MatchableHandlerMapping lookup. This is logged once only at WARN level, and every time at TRACE.
+17:33:05.782 [http-nio-8090-exec-4] INFO  o.s.api.AbstractOpenApiResource - Init duration for springdoc-openapi is: 234 ms
+17:34:37.260 [http-nio-8090-exec-1] INFO  nabiOopFinal.service.AuthService - Login successful for email: elariz@gmail.com
+17:35:19.247 [http-nio-8090-exec-3] INFO  nabiOopFinal.service.AuthService - Login successful for email: elariz@gmail.com
+17:36:03.857 [http-nio-8090-exec-2] INFO  nabiOopFinal.service.RentalService - New Rental Added: BMW X5
+17:37:26.182 [http-nio-8090-exec-5] INFO  nabiOopFinal.service.RentalService - New Rental Added: BMW X7
+17:38:08.509 [http-nio-8090-exec-8] INFO  nabiOopFinal.service.RentalService - New Rental Added: Chevrolet Cobalt
+17:38:22.593 [http-nio-8090-exec-9] INFO  nabiOopFinal.service.RentalService - New Rental Added: Chevrolet Camaro
+17:38:49.284 [http-nio-8090-exec-10] INFO  nabiOopFinal.service.AuthService - Login successful for email: elariz@gmail.com
+17:41:24.476 [http-nio-8090-exec-4] INFO  nabiOopFinal.service.AuthService - Login successful for email: elariz@gmail.com
+17:41:55.520 [http-nio-8090-exec-8] INFO  nabiOopFinal.service.AuthService - Login successful for email: elariz@gmail.com
+17:45:06.701 [http-nio-8090-exec-10] INFO  nabiOopFinal.service.AuthService - Login successful for email: elariz@gmail.com
+17:45:48.057 [http-nio-8090-exec-2] INFO  nabiOopFinal.service.AuthService - Login successful for email: elariz@gmail.com
+19:30:38.338 [http-nio-8090-exec-9] INFO  nabiOopFinal.service.AuthService - Login successful for email: elariz@gmail.com
+19:58:02.665 [http-nio-8090-exec-1] INFO  nabiOopFinal.service.AuthService - Login successful for email: elariz@gmail.com
+20:16:48.359 [http-nio-8090-exec-2] INFO  nabiOopFinal.service.AuthService - Login successful for email: elariz@gmail.com
+20:17:03.795 [http-nio-8090-exec-5] INFO  nabiOopFinal.service.AuthService - Login successful for email: elariz@gmail.com
+20:20:30.322 [http-nio-8090-exec-8] INFO  nabiOopFinal.service.AuthService - Login successful for email: elariz@gmail.com
+20:20:51.697 [http-nio-8090-exec-7] INFO  nabiOopFinal.service.AuthService - Login successful for email: elariz@gmail.com
+20:23:08.140 [http-nio-8090-exec-1] INFO  nabiOopFinal.service.AuthService - Login successful for email: elariz@gmail.com
+20:31:09.567 [http-nio-8090-exec-5] INFO  nabiOopFinal.service.AuthService - Login successful for email: elariz@gmail.com
+20:55:11.172 [http-nio-8090-exec-9] INFO  nabiOopFinal.service.AuthService - Login successful for email: elariz@gmail.com
+20:57:16.828 [http-nio-8090-exec-1] INFO  nabiOopFinal.service.AuthService - Login successful for email: elariz@gmail.com
+20:58:15.138 [http-nio-8090-exec-4] INFO  nabiOopFinal.service.AuthService - Login successful for email: elariz@gmail.com
+20:59:02.035 [http-nio-8090-exec-8] INFO  nabiOopFinal.service.AuthService - Login successful for email: elariz@gmail.com
+21:04:37.938 [http-nio-8090-exec-10] INFO  nabiOopFinal.service.AuthService - Login successful for email: elariz@gmail.com
+21:08:20.751 [http-nio-8090-exec-2] INFO  nabiOopFinal.service.AuthService - Login successful for email: elariz@gmail.com
+21:20:38.868 [http-nio-8090-exec-7] INFO  nabiOopFinal.service.AuthService - Registration initiated for username: Murad Ibrahimov
+21:20:38.985 [http-nio-8090-exec-7] INFO  nabiOopFinal.service.AuthService - Registration successful for username: Murad Ibrahimov
+21:20:51.384 [http-nio-8090-exec-10] INFO  nabiOopFinal.service.AuthService - Login successful for email: murad123@gmail.com
+21:21:56.254 [http-nio-8090-exec-2] INFO  nabiOopFinal.service.AuthService - Login successful for email: murad123@gmail.com
+21:22:38.765 [http-nio-8090-exec-6] INFO  nabiOopFinal.service.AuthService - Login successful for email: murad123@gmail.com
+21:23:10.011 [http-nio-8090-exec-7] INFO  nabiOopFinal.service.AuthService - Login successful for email: murad123@gmail.com
+21:29:16.378 [http-nio-8090-exec-2] INFO  nabiOopFinal.service.AuthService - Login successful for email: murad123@gmail.com
+23:06:57.638 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+23:06:57.669 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+23:06:57.680 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+23:07:02.741 [main] INFO  nabiOopFinal.nabiRentalApp - Starting nabiRentalApp using Java 20 with PID 26652 (C:\Users\BAKU\Documents\prj-rent-a-car-app-NabiShirinov-1\nabiFinalOop\oop\target\classes started by Nabi in C:\Users\BAKU\Documents\prj-rent-a-car-app-NabiShirinov-1\nabiFinalOop\oop)
+23:07:02.743 [main] INFO  nabiOopFinal.nabiRentalApp - No active profile set, falling back to 1 default profile: "default"
+23:07:03.690 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+23:07:03.748 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 50 ms. Found 3 JPA repository interfaces.
+23:07:04.317 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8090 (http)
+23:07:04.324 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8090"]
+23:07:04.326 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+23:07:04.327 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.16]
+23:07:04.386 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+23:07:04.387 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1609 ms
+23:07:04.540 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+23:07:04.608 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.3.1.Final
+23:07:04.645 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+23:07:04.860 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+23:07:04.883 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+23:07:05.051 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@68d8eb4f
+23:07:05.052 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+23:07:05.940 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+23:07:06.013 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+23:07:06.316 [main] INFO  o.s.d.j.r.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+23:07:06.870 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+23:07:07.571 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@13e9a2f2, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@74eebb25, org.springframework.security.web.context.SecurityContextHolderFilter@559baea1, org.springframework.security.web.header.HeaderWriterFilter@2d5cb059, org.springframework.security.web.authentication.logout.LogoutFilter@77cac3b, nabiOopFinal.security.JwtAuthenticationFilter@7b01f056, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6de6467a, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@72cbe3b6, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@c1e7bea, org.springframework.security.web.session.SessionManagementFilter@1bc41170, org.springframework.security.web.access.ExceptionTranslationFilter@33fa6a8b, org.springframework.security.web.access.intercept.AuthorizationFilter@10fef3d1]
+23:07:07.829 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8090"]
+23:07:07.848 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8090 (http) with context path ''
+23:07:07.856 [main] INFO  nabiOopFinal.nabiRentalApp - Started nabiRentalApp in 5.436 seconds (process running for 8.156)
+23:07:29.891 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+23:07:29.893 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+23:07:29.895 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+23:07:34.125 [main] INFO  nabiOopFinal.nabiRentalApp - Starting nabiRentalApp using Java 20 with PID 25224 (C:\Users\BAKU\Documents\prj-rent-a-car-app-NabiShirinov-1\nabiFinalOop\oop\target\classes started by Nabi in C:\Users\BAKU\Documents\prj-rent-a-car-app-NabiShirinov-1\nabiFinalOop\oop)
+23:07:34.127 [main] INFO  nabiOopFinal.nabiRentalApp - No active profile set, falling back to 1 default profile: "default"
+23:07:34.740 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+23:07:34.797 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 50 ms. Found 3 JPA repository interfaces.
+23:07:35.249 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8090 (http)
+23:07:35.255 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8090"]
+23:07:35.257 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+23:07:35.257 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.16]
+23:07:35.309 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+23:07:35.310 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1145 ms
+23:07:35.431 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+23:07:35.472 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.3.1.Final
+23:07:35.501 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+23:07:35.673 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+23:07:35.694 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+23:07:35.823 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@580c17a0
+23:07:35.825 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+23:07:36.610 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+23:07:36.663 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+23:07:36.949 [main] INFO  o.s.d.j.r.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+23:07:37.484 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+23:07:38.075 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@3beee525, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2324e26c, org.springframework.security.web.context.SecurityContextHolderFilter@42ff5c92, org.springframework.security.web.header.HeaderWriterFilter@2cfd91b9, org.springframework.security.web.authentication.logout.LogoutFilter@448861e5, nabiOopFinal.security.JwtAuthenticationFilter@23fed844, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4afad6bd, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@de0922c, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@716205f9, org.springframework.security.web.session.SessionManagementFilter@6565691a, org.springframework.security.web.access.ExceptionTranslationFilter@7ec416a0, org.springframework.security.web.access.intercept.AuthorizationFilter@37c5e2e6]
+23:07:38.295 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8090"]
+23:07:38.322 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8090 (http) with context path ''
+23:07:38.329 [main] INFO  nabiOopFinal.nabiRentalApp - Started nabiRentalApp in 4.513 seconds (process running for 4.931)
+23:08:04.447 [http-nio-8090-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+23:08:04.447 [http-nio-8090-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+23:08:04.449 [http-nio-8090-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+23:08:04.462 [http-nio-8090-exec-1] WARN  o.s.w.s.h.HandlerMappingIntrospector - Cache miss for REQUEST dispatch to '/api/v1/auth/login' (previous null). Performing MatchableHandlerMapping lookup. This is logged once only at WARN level, and every time at TRACE.
+23:08:04.754 [http-nio-8090-exec-1] INFO  nabiOopFinal.service.AuthService - Login successful for email: elariz@gmail.com
+23:08:47.202 [http-nio-8090-exec-3] INFO  nabiOopFinal.service.AuthService - Login successful for email: elariz@gmail.com
+23:13:25.198 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+23:13:25.200 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+23:13:25.202 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+23:13:26.799 [main] INFO  nabiOopFinal.nabiRentalApp - Starting nabiRentalApp using Java 20 with PID 25804 (C:\Users\BAKU\Documents\prj-rent-a-car-app-NabiShirinov-1\nabiFinalOop\oop\target\classes started by Nabi in C:\Users\BAKU\Documents\prj-rent-a-car-app-NabiShirinov-1\nabiFinalOop\oop)
+23:13:26.800 [main] INFO  nabiOopFinal.nabiRentalApp - No active profile set, falling back to 1 default profile: "default"
+23:13:27.551 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+23:13:27.603 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 45 ms. Found 3 JPA repository interfaces.
+23:13:28.133 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8090 (http)
+23:13:28.142 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8090"]
+23:13:28.145 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+23:13:28.145 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.16]
+23:13:28.201 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+23:13:28.202 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1363 ms
+23:13:28.341 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+23:13:28.423 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.3.1.Final
+23:13:28.464 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+23:13:28.684 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+23:13:28.707 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+23:13:28.844 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@580c17a0
+23:13:28.846 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+23:13:29.698 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+23:13:29.753 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+23:13:30.023 [main] INFO  o.s.d.j.r.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+23:13:30.550 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+23:13:31.184 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@2088e339, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@37c5e2e6, org.springframework.security.web.context.SecurityContextHolderFilter@6453c126, org.springframework.security.web.header.HeaderWriterFilter@3167c0d, org.springframework.security.web.authentication.logout.LogoutFilter@2eaaef66, nabiOopFinal.security.JwtAuthenticationFilter@799bb4ed, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1a5b8f77, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@385ff04e, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@342cc706, org.springframework.security.web.session.SessionManagementFilter@74eebb25, org.springframework.security.web.access.ExceptionTranslationFilter@746fda68, org.springframework.security.web.access.intercept.AuthorizationFilter@1e2c701]
+23:13:31.451 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8090"]
+23:13:31.470 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8090 (http) with context path ''
+23:13:31.481 [main] INFO  nabiOopFinal.nabiRentalApp - Started nabiRentalApp in 5.02 seconds (process running for 5.565)
+23:22:47.108 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+23:22:47.110 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+23:22:47.112 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.

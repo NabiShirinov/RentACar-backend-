@@ -1,0 +1,577 @@
+00:00:50.847 [main] INFO  nabiOopFinal.nabiRentalApp - Starting nabiRentalApp using Java 20 with PID 25516 (C:\Users\BAKU\Documents\prj-rent-a-car-app-NabiShirinov-1\nabiFinalOop\oop\target\classes started by Nabi in C:\Users\BAKU\Documents\prj-rent-a-car-app-NabiShirinov-1\nabiFinalOop\oop)
+00:00:50.899 [main] INFO  nabiOopFinal.nabiRentalApp - No active profile set, falling back to 1 default profile: "default"
+00:00:52.466 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+00:00:52.586 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 103 ms. Found 3 JPA repository interfaces.
+00:00:53.520 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8090 (http)
+00:00:53.534 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8090"]
+00:00:53.540 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+00:00:53.541 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.16]
+00:00:53.688 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+00:00:53.690 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2704 ms
+00:00:53.917 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+00:00:54.014 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.3.1.Final
+00:00:54.076 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+00:00:54.408 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+00:00:54.449 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+00:00:54.710 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@5341e71a
+00:00:54.711 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+00:00:55.738 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+00:00:55.809 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+00:00:56.169 [main] INFO  o.s.d.j.r.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+00:00:56.811 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+00:00:57.571 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@3e43fb40, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@57fd93f9, org.springframework.security.web.context.SecurityContextHolderFilter@de4bee9, org.springframework.security.web.header.HeaderWriterFilter@c1e7bea, org.springframework.security.web.authentication.logout.LogoutFilter@37c5e2e6, nabiOopFinal.security.JwtAuthenticationFilter@510c6b9, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@400c0d26, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1b261005, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5e8ec0d9, org.springframework.security.web.session.SessionManagementFilter@43e587cd, org.springframework.security.web.access.ExceptionTranslationFilter@13e9a2f2, org.springframework.security.web.access.intercept.AuthorizationFilter@4655e059]
+00:00:57.834 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8090"]
+00:00:57.856 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8090 (http) with context path ''
+00:00:57.864 [main] INFO  nabiOopFinal.nabiRentalApp - Started nabiRentalApp in 7.686 seconds (process running for 8.595)
+00:01:18.505 [http-nio-8090-exec-5] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+00:01:18.506 [http-nio-8090-exec-5] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+00:01:18.507 [http-nio-8090-exec-5] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+00:01:18.517 [http-nio-8090-exec-5] WARN  o.s.w.s.h.HandlerMappingIntrospector - Cache miss for REQUEST dispatch to '/api/v1/auth/login' (previous null). Performing MatchableHandlerMapping lookup. This is logged once only at WARN level, and every time at TRACE.
+00:01:18.834 [http-nio-8090-exec-5] INFO  nabiOopFinal.service.AuthService - Login successful for email: elariz@gmail.com
+00:12:49.266 [http-nio-8090-exec-7] INFO  nabiOopFinal.service.AuthService - Login successful for email: elariz@gmail.com
+00:16:14.618 [http-nio-8090-exec-5] INFO  nabiOopFinal.service.AuthService - Login successful for email: elariz@gmail.com
+00:18:26.833 [http-nio-8090-exec-2] INFO  nabiOopFinal.service.AuthService - Login successful for email: elariz@gmail.com
+00:29:03.482 [http-nio-8090-exec-10] INFO  nabiOopFinal.service.AuthService - Login successful for email: elariz@gmail.com
+00:30:16.364 [http-nio-8090-exec-9] INFO  nabiOopFinal.service.AuthService - Login successful for email: elariz@gmail.com
+00:31:13.704 [http-nio-8090-exec-8] INFO  nabiOopFinal.service.AuthService - Login successful for email: murad123@gmail.com
+00:33:55.793 [http-nio-8090-exec-6] INFO  nabiOopFinal.service.AuthService - Login successful for email: murad123@gmail.com
+00:35:36.368 [http-nio-8090-exec-7] INFO  nabiOopFinal.service.AuthService - Login successful for email: murad123@gmail.com
+00:40:22.846 [http-nio-8090-exec-4] INFO  nabiOopFinal.service.AuthService - Login successful for email: murad123@gmail.com
+00:45:46.421 [http-nio-8090-exec-2] INFO  nabiOopFinal.service.AuthService - Login successful for email: murad123@gmail.com
+00:49:34.630 [http-nio-8090-exec-5] INFO  nabiOopFinal.service.AuthService - Login successful for email: murad123@gmail.com
+00:49:57.755 [http-nio-8090-exec-7] INFO  nabiOopFinal.service.AuthService - Login successful for email: elariz@gmail.com
+00:52:00.171 [http-nio-8090-exec-9] INFO  nabiOopFinal.service.AuthService - Login successful for email: elariz@gmail.com
+00:52:35.099 [http-nio-8090-exec-3] INFO  nabiOopFinal.service.AuthService - Login successful for email: elariz@gmail.com
+00:53:29.576 [http-nio-8090-exec-9] INFO  nabiOopFinal.service.AuthService - Login successful for email: elariz@gmail.com
+00:54:26.082 [http-nio-8090-exec-4] INFO  nabiOopFinal.service.AuthService - Login successful for email: elariz@gmail.com
+00:55:29.462 [http-nio-8090-exec-9] INFO  nabiOopFinal.service.AuthService - Login successful for email: elariz@gmail.com
+01:04:29.026 [http-nio-8090-exec-6] INFO  nabiOopFinal.service.AuthService - Login successful for email: elariz@gmail.com
+01:05:34.103 [http-nio-8090-exec-5] INFO  nabiOopFinal.service.AuthService - Login successful for email: elariz@gmail.com
+01:27:36.286 [http-nio-8090-exec-8] INFO  nabiOopFinal.service.AuthService - Login successful for email: elariz@gmail.com
+01:32:49.331 [http-nio-8090-exec-3] INFO  nabiOopFinal.service.AuthService - Login successful for email: elariz@gmail.com
+01:48:45.398 [http-nio-8090-exec-8] INFO  nabiOopFinal.service.AuthService - Login successful for email: elariz@gmail.com
+01:49:08.940 [http-nio-8090-exec-2] INFO  nabiOopFinal.service.AuthService - Login successful for email: elariz@gmail.com
+01:49:41.446 [http-nio-8090-exec-1] INFO  nabiOopFinal.service.AuthService - Login successful for email: elariz@gmail.com
+01:52:09.822 [http-nio-8090-exec-2] INFO  nabiOopFinal.service.AuthService - Login successful for email: elariz@gmail.com
+01:53:59.040 [http-nio-8090-exec-1] INFO  nabiOopFinal.service.AuthService - Login successful for email: elariz@gmail.com
+01:55:26.060 [http-nio-8090-exec-10] INFO  nabiOopFinal.service.AuthService - Login successful for email: elariz@gmail.com
+01:55:44.121 [http-nio-8090-exec-8] INFO  nabiOopFinal.service.AuthService - Login successful for email: elariz@gmail.com
+01:55:56.214 [http-nio-8090-exec-2] INFO  nabiOopFinal.service.AuthService - Login successful for email: elariz@gmail.com
+02:02:15.324 [http-nio-8090-exec-1] INFO  nabiOopFinal.service.AuthService - Login successful for email: elariz@gmail.com
+02:03:04.802 [http-nio-8090-exec-2] INFO  nabiOopFinal.service.AuthService - Login successful for email: elariz@gmail.com
+02:04:21.587 [http-nio-8090-exec-8] INFO  nabiOopFinal.service.AuthService - Login successful for email: murad123@gmail.com
+02:23:52.739 [http-nio-8090-exec-10] INFO  nabiOopFinal.service.AuthService - Login successful for email: murad123@gmail.com
+02:27:22.001 [http-nio-8090-exec-7] INFO  nabiOopFinal.service.AuthService - Login successful for email: murad123@gmail.com
+02:29:23.419 [http-nio-8090-exec-9] INFO  nabiOopFinal.service.AuthService - Login successful for email: murad123@gmail.com
+02:30:16.805 [http-nio-8090-exec-4] INFO  nabiOopFinal.service.AuthService - Login successful for email: murad123@gmail.com
+02:31:19.726 [http-nio-8090-exec-8] INFO  nabiOopFinal.service.RentalService - New Rental Added: Toyota Supra
+02:35:45.041 [http-nio-8090-exec-1] INFO  nabiOopFinal.service.AuthService - Login successful for email: murad123@gmail.com
+03:17:40.463 [http-nio-8090-exec-2] INFO  nabiOopFinal.service.AuthService - Login successful for email: murad123@gmail.com
+03:20:27.784 [http-nio-8090-exec-5] INFO  nabiOopFinal.service.AuthService - Login successful for email: elariz@gmail.com
+03:25:37.023 [http-nio-8090-exec-5] INFO  nabiOopFinal.service.AuthService - Login successful for email: elariz@gmail.com
+03:29:55.579 [http-nio-8090-exec-10] INFO  nabiOopFinal.service.AuthService - Login successful for email: elariz@gmail.com
+03:30:14.240 [http-nio-8090-exec-6] INFO  nabiOopFinal.service.AuthService - Login successful for email: murad123@gmail.com
+03:43:08.296 [http-nio-8090-exec-1] INFO  nabiOopFinal.service.AuthService - Login successful for email: elariz@gmail.com
+03:43:33.346 [http-nio-8090-exec-7] INFO  nabiOopFinal.service.AuthService - Login successful for email: murad123@gmail.com
+03:43:39.097 [http-nio-8090-exec-9] INFO  nabiOopFinal.service.UserService - User Deleted: murad123@gmail.com
+03:43:43.142 [http-nio-8090-exec-10] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception
+org.springframework.security.core.userdetails.UsernameNotFoundException: User not found
+	at nabiOopFinal.config.ApplicationConfig.lambda$userDetailsService$0(ApplicationConfig.java:25)
+	at java.base/java.util.Optional.orElseThrow(Optional.java:403)
+	at nabiOopFinal.config.ApplicationConfig.lambda$userDetailsService$1(ApplicationConfig.java:25)
+	at nabiOopFinal.security.JwtAuthenticationFilter.doFilterInternal(JwtAuthenticationFilter.java:48)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:107)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:93)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:82)
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:69)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:62)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.session.DisableEncodeUrlFilter.doFilterInternal(DisableEncodeUrlFilter.java:42)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:233)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:191)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:352)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:268)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:340)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1744)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:1623)
+03:43:43.911 [http-nio-8090-exec-1] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception
+org.springframework.security.core.userdetails.UsernameNotFoundException: User not found
+	at nabiOopFinal.config.ApplicationConfig.lambda$userDetailsService$0(ApplicationConfig.java:25)
+	at java.base/java.util.Optional.orElseThrow(Optional.java:403)
+	at nabiOopFinal.config.ApplicationConfig.lambda$userDetailsService$1(ApplicationConfig.java:25)
+	at nabiOopFinal.security.JwtAuthenticationFilter.doFilterInternal(JwtAuthenticationFilter.java:48)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:107)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:93)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:82)
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:69)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:62)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.session.DisableEncodeUrlFilter.doFilterInternal(DisableEncodeUrlFilter.java:42)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:233)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:191)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:352)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:268)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:340)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1744)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:1623)
+03:43:47.283 [http-nio-8090-exec-4] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception
+org.springframework.security.core.userdetails.UsernameNotFoundException: User not found
+	at nabiOopFinal.config.ApplicationConfig.lambda$userDetailsService$0(ApplicationConfig.java:25)
+	at java.base/java.util.Optional.orElseThrow(Optional.java:403)
+	at nabiOopFinal.config.ApplicationConfig.lambda$userDetailsService$1(ApplicationConfig.java:25)
+	at nabiOopFinal.security.JwtAuthenticationFilter.doFilterInternal(JwtAuthenticationFilter.java:48)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:107)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:93)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:82)
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:69)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:62)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.session.DisableEncodeUrlFilter.doFilterInternal(DisableEncodeUrlFilter.java:42)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:233)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:191)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:352)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:268)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:340)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1744)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:1623)
+03:43:47.975 [http-nio-8090-exec-3] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception
+org.springframework.security.core.userdetails.UsernameNotFoundException: User not found
+	at nabiOopFinal.config.ApplicationConfig.lambda$userDetailsService$0(ApplicationConfig.java:25)
+	at java.base/java.util.Optional.orElseThrow(Optional.java:403)
+	at nabiOopFinal.config.ApplicationConfig.lambda$userDetailsService$1(ApplicationConfig.java:25)
+	at nabiOopFinal.security.JwtAuthenticationFilter.doFilterInternal(JwtAuthenticationFilter.java:48)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:107)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:93)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:82)
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:69)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:62)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.session.DisableEncodeUrlFilter.doFilterInternal(DisableEncodeUrlFilter.java:42)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:233)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:191)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:352)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:268)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:340)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1744)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:1623)
+03:44:04.372 [http-nio-8090-exec-2] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception
+org.springframework.security.core.userdetails.UsernameNotFoundException: User not found
+	at nabiOopFinal.config.ApplicationConfig.lambda$userDetailsService$0(ApplicationConfig.java:25)
+	at java.base/java.util.Optional.orElseThrow(Optional.java:403)
+	at nabiOopFinal.config.ApplicationConfig.lambda$userDetailsService$1(ApplicationConfig.java:25)
+	at nabiOopFinal.security.JwtAuthenticationFilter.doFilterInternal(JwtAuthenticationFilter.java:48)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:107)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:93)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:82)
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:69)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:62)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.session.DisableEncodeUrlFilter.doFilterInternal(DisableEncodeUrlFilter.java:42)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:233)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:191)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:352)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:268)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:340)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1744)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:1623)
+03:44:32.259 [http-nio-8090-exec-7] INFO  nabiOopFinal.service.AuthService - Registration initiated for username: Nabi Shirinov123
+03:44:32.327 [http-nio-8090-exec-7] INFO  nabiOopFinal.service.AuthService - Registration successful for username: Nabi Shirinov123
+03:44:40.126 [http-nio-8090-exec-8] INFO  nabiOopFinal.service.AuthService - Login successful for email: n123@gmail.com
+03:44:47.872 [http-nio-8090-exec-1] INFO  nabiOopFinal.service.UserService - User Deleted: n123@gmail.com
+14:42:17.302 [main] INFO  nabiOopFinal.nabiRentalApp - Starting nabiRentalApp using Java 20 with PID 8676 (C:\Users\BAKU\Documents\prj-rent-a-car-app-NabiShirinov-1\nabiFinalOop\oop\target\classes started by Nabi in C:\Users\BAKU\Documents\prj-rent-a-car-app-NabiShirinov-1\nabiFinalOop\oop)
+14:42:17.304 [main] INFO  nabiOopFinal.nabiRentalApp - No active profile set, falling back to 1 default profile: "default"
+14:42:19.172 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+14:42:19.345 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 148 ms. Found 3 JPA repository interfaces.
+14:42:20.833 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8090 (http)
+14:42:20.852 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8090"]
+14:42:20.858 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+14:42:20.858 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.16]
+14:42:21.031 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+14:42:21.033 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3685 ms
+14:42:21.422 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+14:42:21.555 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.3.1.Final
+14:42:21.629 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+14:42:22.141 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+14:42:22.206 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+14:42:22.650 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@608b35fa
+14:42:22.654 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+14:42:24.767 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+14:42:24.896 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+14:42:25.551 [main] INFO  o.s.d.j.r.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+14:42:26.807 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+14:42:27.861 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@75c90ec5, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@35ff7336, org.springframework.security.web.context.SecurityContextHolderFilter@6818c0a6, org.springframework.security.web.header.HeaderWriterFilter@1ec22804, org.springframework.security.web.authentication.logout.LogoutFilter@2e02cc02, nabiOopFinal.security.JwtAuthenticationFilter@5771adf3, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@b15da69, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@48ca44cd, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4f7bb581, org.springframework.security.web.session.SessionManagementFilter@2471cfa0, org.springframework.security.web.access.ExceptionTranslationFilter@75ba33b8, org.springframework.security.web.access.intercept.AuthorizationFilter@271ced5f]
+14:42:28.349 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8090"]
+14:42:28.387 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8090 (http) with context path ''
+14:42:28.400 [main] INFO  nabiOopFinal.nabiRentalApp - Started nabiRentalApp in 11.606 seconds (process running for 17.645)
+15:28:26.165 [http-nio-8090-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+15:28:26.175 [http-nio-8090-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+15:28:26.231 [http-nio-8090-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 56 ms
+15:28:26.270 [http-nio-8090-exec-1] WARN  o.s.w.s.h.HandlerMappingIntrospector - Cache miss for REQUEST dispatch to '/api/v1/auth/login' (previous null). Performing MatchableHandlerMapping lookup. This is logged once only at WARN level, and every time at TRACE.
+15:28:26.861 [http-nio-8090-exec-1] INFO  nabiOopFinal.service.AuthService - Login successful for email: elariz@gmail.com
+17:58:25.391 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+17:58:25.417 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+17:58:25.425 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+17:58:31.006 [main] INFO  nabiOopFinal.nabiRentalApp - Starting nabiRentalApp using Java 20 with PID 14340 (C:\Users\BAKU\Documents\prj-rent-a-car-app-NabiShirinov-1\nabiFinalOop\oop\target\classes started by Nabi in C:\Users\BAKU\Documents\prj-rent-a-car-app-NabiShirinov-1\nabiFinalOop\oop)
+17:58:31.008 [main] INFO  nabiOopFinal.nabiRentalApp - No active profile set, falling back to 1 default profile: "default"
+17:58:32.112 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+17:58:32.190 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 65 ms. Found 3 JPA repository interfaces.
+17:58:32.938 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8090 (http)
+17:58:32.950 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8090"]
+17:58:32.954 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+17:58:32.954 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.16]
+17:58:33.039 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+17:58:33.041 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1993 ms
+17:58:33.258 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+17:58:33.347 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.3.1.Final
+17:58:33.399 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+17:58:33.672 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+17:58:33.703 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+17:58:33.922 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@24a8e40d
+17:58:33.924 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+17:58:35.003 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+17:58:35.087 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+17:58:35.437 [main] INFO  o.s.d.j.r.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+17:58:36.178 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+17:58:36.846 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@42ff5c92, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@c9cd06e, org.springframework.security.web.context.SecurityContextHolderFilter@ae449e7, org.springframework.security.web.header.HeaderWriterFilter@4f283b8f, org.springframework.security.web.authentication.logout.LogoutFilter@504ed038, nabiOopFinal.security.JwtAuthenticationFilter@57d71569, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@71390c8, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@179806f3, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4afad6bd, org.springframework.security.web.session.SessionManagementFilter@6f8060ac, org.springframework.security.web.access.ExceptionTranslationFilter@329cdafa, org.springframework.security.web.access.intercept.AuthorizationFilter@6565691a]
+17:58:37.152 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8090"]
+17:58:37.174 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8090 (http) with context path ''
+17:58:37.182 [main] INFO  nabiOopFinal.nabiRentalApp - Started nabiRentalApp in 6.521 seconds (process running for 9.533)
+19:51:52.437 [main] INFO  nabiOopFinal.nabiRentalApp - Starting nabiRentalApp using Java 20 with PID 13316 (C:\Users\BAKU\Documents\prj-rent-a-car-app-NabiShirinov-1\nabiFinalOop\oop\target\classes started by Nabi in C:\Users\BAKU\Documents\prj-rent-a-car-app-NabiShirinov-1\nabiFinalOop\oop)
+19:51:52.439 [main] INFO  nabiOopFinal.nabiRentalApp - No active profile set, falling back to 1 default profile: "default"
+19:51:53.574 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+19:51:53.665 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 80 ms. Found 3 JPA repository interfaces.
+19:51:54.501 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8090 (http)
+19:51:54.517 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8090"]
+19:51:54.521 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+19:51:54.521 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.16]
+19:51:54.627 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+19:51:54.629 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2123 ms
+19:51:54.854 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+19:51:54.943 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.3.1.Final
+19:51:55.015 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+19:51:55.338 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+19:51:55.371 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+19:51:55.657 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@3f1158ee
+19:51:55.659 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+19:51:57.107 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+19:51:57.222 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+19:51:57.667 [main] INFO  o.s.d.j.r.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+19:51:58.581 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+19:51:59.858 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@711329fe, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2088e339, org.springframework.security.web.context.SecurityContextHolderFilter@3af30ab8, org.springframework.security.web.header.HeaderWriterFilter@77cac3b, org.springframework.security.web.authentication.logout.LogoutFilter@1c83652d, nabiOopFinal.security.JwtAuthenticationFilter@4e64e44c, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6565691a, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1a5b8f77, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@37c5e2e6, org.springframework.security.web.session.SessionManagementFilter@13e9a2f2, org.springframework.security.web.access.ExceptionTranslationFilter@35984172, org.springframework.security.web.access.intercept.AuthorizationFilter@1ff9d66b]
+19:52:00.220 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8090"]
+19:52:00.229 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+19:52:00.232 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+19:52:00.235 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+19:52:00.238 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+19:52:00.261 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+19:52:00.289 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8090 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8090 or configure this application to listen on another port.
+
+19:52:36.041 [main] INFO  nabiOopFinal.nabiRentalApp - Starting nabiRentalApp using Java 20 with PID 23716 (C:\Users\BAKU\Documents\prj-rent-a-car-app-NabiShirinov-1\nabiFinalOop\oop\target\classes started by Nabi in C:\Users\BAKU\Documents\prj-rent-a-car-app-NabiShirinov-1\nabiFinalOop\oop)
+19:52:36.044 [main] INFO  nabiOopFinal.nabiRentalApp - No active profile set, falling back to 1 default profile: "default"
+19:52:37.091 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+19:52:37.175 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 72 ms. Found 3 JPA repository interfaces.
+19:52:37.975 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8081 (http)
+19:52:37.982 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+19:52:37.985 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+19:52:37.986 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.16]
+19:52:38.062 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+19:52:38.063 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1950 ms
+19:52:38.292 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+19:52:38.376 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.3.1.Final
+19:52:38.420 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+19:52:38.710 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+19:52:38.742 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+19:52:38.971 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@3f1158ee
+19:52:38.973 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+19:52:40.236 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+19:52:40.331 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+19:52:40.785 [main] INFO  o.s.d.j.r.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+19:52:41.563 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+19:52:42.576 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@711329fe, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2088e339, org.springframework.security.web.context.SecurityContextHolderFilter@3af30ab8, org.springframework.security.web.header.HeaderWriterFilter@77cac3b, org.springframework.security.web.authentication.logout.LogoutFilter@1c83652d, nabiOopFinal.security.JwtAuthenticationFilter@4e64e44c, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6565691a, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1a5b8f77, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@37c5e2e6, org.springframework.security.web.session.SessionManagementFilter@13e9a2f2, org.springframework.security.web.access.ExceptionTranslationFilter@35984172, org.springframework.security.web.access.intercept.AuthorizationFilter@1ff9d66b]
+19:52:42.887 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+19:52:42.910 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8081 (http) with context path ''
+19:52:42.922 [main] INFO  nabiOopFinal.nabiRentalApp - Started nabiRentalApp in 7.465 seconds (process running for 8.293)
+19:53:23.369 [http-nio-8081-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+19:53:23.369 [http-nio-8081-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+19:53:23.372 [http-nio-8081-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+19:53:23.392 [http-nio-8081-exec-1] WARN  o.s.w.s.h.HandlerMappingIntrospector - Cache miss for REQUEST dispatch to '/api/v1/auth/login' (previous null). Performing MatchableHandlerMapping lookup. This is logged once only at WARN level, and every time at TRACE.
+19:53:23.864 [http-nio-8081-exec-1] INFO  nabiOopFinal.service.AuthService - Login successful for email: elariz@gmail.com
+19:54:20.977 [http-nio-8081-exec-5] INFO  nabiOopFinal.service.AuthService - Registration initiated for username: Yusif Yusifov
+19:54:21.117 [http-nio-8081-exec-5] INFO  nabiOopFinal.service.AuthService - Registration successful for username: Yusif Yusifov
+19:54:32.855 [http-nio-8081-exec-9] INFO  nabiOopFinal.service.AuthService - Login successful for email: yusif.y@gmail.com
+19:55:25.689 [http-nio-8081-exec-10] INFO  nabiOopFinal.service.RentalService - New Rental Added: Toyota Supra
+20:01:25.290 [http-nio-8081-exec-2] INFO  nabiOopFinal.service.AuthService - Login successful for email: yusif.y@gmail.com
+20:01:56.140 [http-nio-8081-exec-6] INFO  nabiOopFinal.service.RentalService - New Rental Added: Toyota Prado
+20:02:52.507 [http-nio-8081-exec-5] INFO  nabiOopFinal.service.AuthService - Login successful for email: yusif.y@gmail.com
+20:04:17.752 [http-nio-8081-exec-2] INFO  nabiOopFinal.service.AuthService - Login successful for email: yusif.y@gmail.com
+20:04:41.227 [http-nio-8081-exec-8] INFO  nabiOopFinal.service.AuthService - Login successful for email: elariz@gmail.com
+20:05:35.018 [http-nio-8081-exec-2] INFO  nabiOopFinal.service.AuthService - Login successful for email: elariz@gmail.com
+20:05:59.955 [http-nio-8081-exec-1] INFO  nabiOopFinal.service.AuthService - Login successful for email: elariz@gmail.com
+21:53:02.261 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=14m58s604ms977µs100ns).
+21:53:04.800 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=14m57s942ms779µs300ns).
+22:08:39.605 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=12m41s972ms940µs500ns).
+22:08:49.971 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=12m49s824ms139µs500ns).
+22:12:52.919 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m32s934ms16µs600ns).
+22:13:13.416 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m33s763ms721µs400ns).
+23:50:21.610 [http-nio-8081-exec-7] INFO  nabiOopFinal.service.AuthService - Login successful for email: elariz@gmail.com
+04:54:51.185 [http-nio-8081-exec-2] INFO  nabiOopFinal.service.AuthService - Login successful for email: elariz@gmail.com
+04:58:58.221 [http-nio-8081-exec-10] INFO  nabiOopFinal.service.AuthService - Login successful for email: elariz@gmail.com
+05:00:51.341 [http-nio-8081-exec-4] INFO  nabiOopFinal.service.AuthService - Login successful for email: elariz@gmail.com
+05:02:49.236 [http-nio-8081-exec-9] INFO  nabiOopFinal.service.AuthService - Login successful for email: elariz@gmail.com
+05:04:15.984 [http-nio-8081-exec-6] INFO  nabiOopFinal.service.AuthService - Login successful for email: elariz@gmail.com
+05:04:57.057 [http-nio-8081-exec-3] INFO  nabiOopFinal.service.AuthService - Login successful for email: elariz@gmail.com
+05:05:25.173 [http-nio-8081-exec-2] INFO  nabiOopFinal.service.AuthService - Login successful for email: elariz@gmail.com
+05:15:26.837 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+05:15:26.867 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+05:15:26.876 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+05:15:32.264 [main] INFO  nabiOopFinal.nabiRentalApp - Starting nabiRentalApp using Java 20 with PID 25628 (C:\Users\BAKU\Documents\prj-rent-a-car-app-NabiShirinov-1\nabiFinalOop\oop\target\classes started by Nabi in C:\Users\BAKU\Documents\prj-rent-a-car-app-NabiShirinov-1\nabiFinalOop\oop)
+05:15:32.266 [main] INFO  nabiOopFinal.nabiRentalApp - No active profile set, falling back to 1 default profile: "default"
+05:15:33.305 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+05:15:33.378 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 65 ms. Found 3 JPA repository interfaces.
+05:15:33.968 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8081 (http)
+05:15:33.975 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+05:15:33.978 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+05:15:33.978 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.16]
+05:15:34.041 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+05:15:34.042 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1737 ms
+05:15:34.222 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+05:15:34.298 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.3.1.Final
+05:15:34.344 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+05:15:34.642 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+05:15:34.667 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+05:15:34.982 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@24a8e40d
+05:15:34.983 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+05:15:36.614 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+05:15:36.685 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+05:15:37.070 [main] INFO  o.s.d.j.r.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+05:15:37.942 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+05:15:38.638 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@4afad6bd, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@de0922c, org.springframework.security.web.context.SecurityContextHolderFilter@71390c8, org.springframework.security.web.header.HeaderWriterFilter@4b0a6c53, org.springframework.security.web.authentication.logout.LogoutFilter@3fb8e614, nabiOopFinal.security.JwtAuthenticationFilter@57d71569, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@3f1bde96, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3776c917, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@35c344ce, org.springframework.security.web.session.SessionManagementFilter@1df1bd44, org.springframework.security.web.access.ExceptionTranslationFilter@4f283b8f, org.springframework.security.web.access.intercept.AuthorizationFilter@385ff04e]
+05:15:38.947 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+05:15:38.969 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8081 (http) with context path ''
+05:15:38.980 [main] INFO  nabiOopFinal.nabiRentalApp - Started nabiRentalApp in 7.083 seconds (process running for 10.339)
+05:15:45.554 [http-nio-8081-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+05:15:45.554 [http-nio-8081-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+05:15:45.556 [http-nio-8081-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+05:15:45.569 [http-nio-8081-exec-1] WARN  o.s.w.s.h.HandlerMappingIntrospector - Cache miss for REQUEST dispatch to '/api/v1/auth/login' (previous null). Performing MatchableHandlerMapping lookup. This is logged once only at WARN level, and every time at TRACE.
+05:15:59.572 [http-nio-8081-exec-2] INFO  nabiOopFinal.service.AuthService - Login successful for email: elariz@gmail.com
+05:18:10.122 [http-nio-8081-exec-7] INFO  nabiOopFinal.service.AuthService - Login successful for email: elariz@gmail.com
+05:23:52.304 [http-nio-8081-exec-2] INFO  nabiOopFinal.service.AuthService - Login successful for email: elariz@gmail.com
+05:25:38.395 [http-nio-8081-exec-6] INFO  nabiOopFinal.service.AuthService - Registration initiated for username: Humbet A
+05:25:38.467 [http-nio-8081-exec-6] INFO  nabiOopFinal.service.AuthService - Registration successful for username: Humbet A
+05:25:50.281 [http-nio-8081-exec-5] INFO  nabiOopFinal.service.AuthService - Login successful for email: hmbt@gmail.com
+05:39:40.281 [http-nio-8081-exec-1] INFO  nabiOopFinal.service.AuthService - Login successful for email: elariz@gmail.com
+05:41:09.690 [http-nio-8081-exec-6] INFO  nabiOopFinal.service.AuthService - Login successful for email: elariz@gmail.com
+05:45:29.490 [http-nio-8081-exec-6] INFO  nabiOopFinal.service.RentalService - New Rental Added: Kia Sportage
+05:48:26.535 [http-nio-8081-exec-7] INFO  nabiOopFinal.service.AuthService - Login successful for email: hmbt@gmail.com
+05:48:52.343 [http-nio-8081-exec-4] INFO  nabiOopFinal.service.RentalService - New Rental Added: Honda Civic
+05:50:28.716 [http-nio-8081-exec-10] INFO  nabiOopFinal.service.AuthService - Login successful for email: hmbt@gmail.com
+05:51:02.043 [http-nio-8081-exec-4] INFO  nabiOopFinal.service.RentalService - New Rental Added: Mercedes S class
+05:54:01.088 [http-nio-8081-exec-10] INFO  nabiOopFinal.service.AuthService - Login successful for email: hmbt@gmail.com
+05:54:34.342 [http-nio-8081-exec-2] INFO  nabiOopFinal.service.RentalService - New Rental Added: Honda CL
+05:56:51.067 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+05:56:51.080 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+05:56:51.084 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.

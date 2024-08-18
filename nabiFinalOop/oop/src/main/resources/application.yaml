@@ -1,0 +1,25 @@
+server:
+
+  port: 8081
+
+
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/RentalApp
+    username: postgres
+    password: nabi
+    driver-class-name: org.postgresql.Driver
+
+  jpa:
+    hibernate.ddl-auto: update
+    generate-ddl: true
+    show-sql: true
+
+
+security:
+  jwt:
+    secret-key: "eyJSb2xlIjoiQWRtaW4iLCJJc3N1ZXIiOiJJc3N1ZXIiLCJVc2VybmFtZSI6IkphdmFJblVzZSIsImV4cCI6MTcwMDkzM"
+    access-token:
+      expiration: "604800000"
+    refresh-token:
+      expiration: "2592000000"
